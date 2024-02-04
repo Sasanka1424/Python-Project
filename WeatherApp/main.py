@@ -7,7 +7,7 @@ def get_weather(city_name, api_key):
     return data
 
 def fetch_weather(city_name):
-    api_key = '7e49f4f08e39cef2e161b42baa35b575'  # Replace this with your OpenWeatherMap API key
+    api_key = 'hbuigbiuhuibbuhb'  # Replace this with your OpenWeatherMap API key
     weather_data = get_weather(city_name, api_key)
     if weather_data["cod"] == "404":
         return "City not found. Please check the city name and try again."
